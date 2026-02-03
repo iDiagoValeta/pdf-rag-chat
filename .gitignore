@@ -1,0 +1,17 @@
+# Vector database
+mi_vector_db/
+
+# PDF files (add your own)
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
