@@ -2,6 +2,8 @@
 
 A local RAG (Retrieval Augmented Generation) chatbot that answers questions from your PDF documents using Ollama and ChromaDB.
 
+![Presentation](imgs/presentacion.png)
+
 ## Features
 
 - **Hybrid Search**: Combines semantic search with keyword matching for better retrieval
@@ -58,6 +60,23 @@ python chat_pdfs.py
 | `stats` | Database statistics |
 | `ayuda` | Help |
 | `salir` | Exit |
+
+## Screenshots
+
+### Hybrid Search in Action
+The system combines semantic and keyword search to find the most relevant fragments:
+
+![Fragment Search](imgs/buscarFragmentos.png)
+
+### Assistant Response
+Answers are generated based on the retrieved context:
+
+![Assistant Response](imgs/respuestaAsistente.png)
+
+### Source Citations
+Every answer includes exact document and page references:
+
+![Citations](imgs/citasConsultadas.png)
 
 ## How It Works
 
