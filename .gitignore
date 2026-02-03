@@ -1,8 +1,8 @@
 # Vector database
 mi_vector_db/
 
-# PDF files (add your own)
-*.pdf
+# PDF files in root (keep pdfs/ folder)
+/*.pdf
 
 # Python
 __pycache__/
