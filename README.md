@@ -82,7 +82,7 @@ Every answer includes exact document and page references:
 
 ```
 ┌─────────────┐    ┌──────────────┐    ┌─────────────┐    ┌──────────────┐
-│  PDF Files  │───▶│   Chunking   │───▶│  Embeddings │───▶│   ChromaDB   │
+│  PDF Files  │──▶│   Chunking   │───▶│  Embeddings │──▶│   ChromaDB   │
 └─────────────┘    └──────────────┘    └─────────────┘    └──────────────┘
                          │
                    800 chars/chunk
